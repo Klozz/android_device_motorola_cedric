@@ -157,7 +157,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SELinux
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/motorola/cedric/sepolicy
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
