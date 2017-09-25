@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
     Snap \
     android.hardware.camera.provider@2.4-impl \
     libshim_buffer \
+    libshim_camera \
     libshim_just
 
 # Camera Configurations

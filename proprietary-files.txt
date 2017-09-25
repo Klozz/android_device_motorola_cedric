@@ -155,7 +155,7 @@ etc/permissions/qti_permissions.xml
 -framework/embmslibrary.jar
 -framework/imscmlibrary.jar
 -framework/qcrilhook.jar
-lib/hw/camera.msm8937.so:lib/hw/camera.vendor.msm8937.so
+lib/hw/camera.msm8937.so
 lib/hw/fingerprint.msm8937.so
 lib/hw/sensorhub.msm8937.so
 lib/hw/sensors.msm8937.so
