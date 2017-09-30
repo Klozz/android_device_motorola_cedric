@@ -77,3 +77,24 @@ LOCAL_SHARED_LIBRARIES := libgui libsensor
 LOCAL_MODULE := libshim_ril
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
+
+# Camera
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := \
+    GraphicBuffer2.cpp \
+    gui/GraphicBuffer.cpp \
+    gui/GraphicBufferAlloc.cpp \
+    gui/IGraphicBufferAlloc.cpp
+
+LOCAL_SHARED_LIBRARIES := \
+    libbinder \
+    libgui \
+    libhardware \
+    libutils \
+    liblog \
+    libcutils \
+    libui
+
+LOCAL_MODULE := libshim_buffer
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_SHARED_LIBRARY)

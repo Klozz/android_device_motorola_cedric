@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     Snap \
     Camera2 \
+    libshim_buffer \
     libshim_camera_hal \
     libshims_camera
 
