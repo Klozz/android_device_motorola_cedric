@@ -97,7 +97,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbson \
     Snap \
-    android.hardware.camera.provider@2.4-impl
+    android.hardware.camera.provider@2.4-impl \
+    libshim_buffer
 
 # Camera Configurations
 PRODUCT_COPY_FILES += \
