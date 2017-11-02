@@ -54,7 +54,7 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := DisplayEventReceiver.c
+LOCAL_SRC_FILES := DisplayEventReceiver.cpp
 LOCAL_MODULE := libshim_camera_hal
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
