@@ -34,7 +34,7 @@ import android.text.TextUtils;
 
 import java.io.File;
 
-import org.lineageos.internal.util.FileUtils;
+import org.lineageos.settings.FileUtils;
 import org.lineageos.settings.device.actions.Constants;
 
 public class ActionsPreferenceFragment extends PreferenceFragment {
