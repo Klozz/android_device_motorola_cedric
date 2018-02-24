@@ -24,7 +24,6 @@ $(call inherit-product, device/motorola/cedric/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
 PRODUCT_NAME := full_cedric
-PRODUCT_MODEL := Moto G5
 
 # for specific
 $(call inherit-product, vendor/motorola/cedric/cedric-vendor.mk)
