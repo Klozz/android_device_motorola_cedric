@@ -234,6 +234,7 @@ MOT_SENSOR_HUB_FEATURE_GR := true
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/bin/adspd|libshim_adsp.so \
+    /system/vendor/bin/mm-qcamera-daemon|libsensor.so \
     /system/lib/lib_motsensorlistener.so|libsensor.so \
     /system/lib/libjustshoot.so|libshims_camera.so \
     /system/vendor/lib/libmmcamera2_stats_modules.so|libsensor.so \
