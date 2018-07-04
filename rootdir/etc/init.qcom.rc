@@ -527,6 +527,7 @@ service qcamerasvr /vendor/bin/mm-qcamera-daemon
     class late_start
     user camera
     group camera system inet input graphics
+    setenv LD_PRELOAD "vendor/lib/libshim_sensor_listener.so"
     writepid /dev/cpuset/system-background/tasks
 
 service cnd /vendor/bin/cnd
